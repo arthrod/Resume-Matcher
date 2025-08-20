@@ -1,4 +1,4 @@
-FROM python:3.11.0-slim
+FROM python:3.14.0rc2-slim
 WORKDIR /data/Resume-Matcher
 RUN apt-get update
 RUN apt-get install -y build-essential python-dev git
